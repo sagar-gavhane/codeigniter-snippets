@@ -1,0 +1,12 @@
+{
+	"create new model": {
+		"prefix": "ci_model",
+		"body": [
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"class $1${TM_FILENAME_BASE} extends CI_Model{",
+			"",
+			"}"
+		],
+		"description": "create new model"
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "create new controller template": {
+        "prefix": "ci_controller",
+        "body": [
+            "defined('BASEPATH') OR exit('No direct script access allowed');",
+            "class $1${TM_FILENAME_BASE} extends CI_Controller{",
+            "    ",
+            "    public function __construct(){",
+            "        parent::__construct();",
+            "        // youre code start here",
+            "    }",
+            "}"
+        ],
+        "description": "CI - create new controller template"
+    }
+}

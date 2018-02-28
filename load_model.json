@@ -1,0 +1,9 @@
+{
+	"load a model": {
+		"prefix": "ci_load_model",
+		"body": [
+			"$$this->load->model('$1');"
+		],
+		"description": "load a model"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"set new route": {
+		"prefix": "ci_route_set",
+		"body": [
+			"$$route['$1'] = '$2';"
+		],
+		"description": "set new route"
+	}
+}

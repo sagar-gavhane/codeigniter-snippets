@@ -1,0 +1,9 @@
+{
+	"get instance": {
+		"prefix": "ci_get_instance",
+		"body": [
+			"$${1:CI} = & get_instance();"
+		],
+		"description": "get instance"
+	}
+}

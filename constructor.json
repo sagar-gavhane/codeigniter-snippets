@@ -1,0 +1,12 @@
+{
+    "class constructor": {
+		"prefix": "ci_constructor",
+		"body": [
+			"public function __construct(){",
+			"    parent::__construct();",
+			"    // youre code start here",
+			"}"
+		],
+		"description": "class constructor"
+	}
+}

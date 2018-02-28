@@ -1,0 +1,9 @@
+{
+	"load helper": {
+		"prefix": "ci_load_helper",
+		"body": [
+			"$$this->load->helper('$1');"
+		],
+		"description": "load helper"
+	}
+}

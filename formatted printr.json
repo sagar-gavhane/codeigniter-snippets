@@ -1,0 +1,11 @@
+{
+	"formatted print_r": {
+		"prefix": "ci_print_r",
+		"body": [
+			"echo '<pre>';",
+			"print_r($$data);",
+			"echo '</pre>';"
+		],
+		"description": "formatted print_r"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "log message": {
+        "prefix": "ci_log_message",
+        "body": [
+            "log_message('$1', '$2');"
+        ],
+        "description": "log message"
+    }
+}
