@@ -1,0 +1,9 @@
+{
+	"insert query builder": {
+		"prefix": "ci_db_insert",
+		"body": [
+		  "$$this->db->insert('${1:table_name}');"
+		],
+		"description": "insert query builder"
+	  }
+}

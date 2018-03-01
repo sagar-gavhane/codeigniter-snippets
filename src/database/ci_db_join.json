@@ -1,0 +1,9 @@
+{
+	"join query builder": {
+		"prefix": "ci_db_join",
+		"body": [
+		  "$$this->db->join('${1:table_name}', $2);$3"
+		],
+		"description": "join query builder"
+	  }
+}

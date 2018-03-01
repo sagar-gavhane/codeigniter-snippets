@@ -1,4 +1,144 @@
 {
+	"get affected rows": {
+		"prefix": "ci_db_affected_rows",
+		"body": [
+			"$$this->db->affected_rows();"
+		],
+		"description": "get affected rows"
+	},
+	"delete specific records": {
+		"prefix": "ci_db_delete",
+		"body": [
+			"$$this->db->delete('${0:Table}');"
+		],
+		"description": "delete specific records"
+	},
+	"It frees the memory associated with the result and deletes the result resource ID.": {
+		"prefix": "ci_db_free_result",
+		"body": [
+			"$${1:query}->free_result();"
+		],
+		"description": "It frees the memory associated with the result and deletes the result resource ID."
+	},
+	"get query builder method": {
+		"prefix": "ci_db_get",
+		"body": [
+			"$$this->db->get('${1:table}');"
+		],
+		"description": "get query builder method"
+	},
+	"group by query builder method": {
+		"prefix": "ci_db_group_by",
+		"body": [
+			"$$this->db->group_by($1);"
+		],
+		"description": "group by query builder method"
+	},
+	"insert query builder": {
+		"prefix": "ci_db_insert",
+		"body": [
+			"$$this->db->insert('${1:table_name}');"
+		],
+		"description": "insert query builder"
+	},
+	"insert batch query builder": {
+		"prefix": "ci_db_insert_batch",
+		"body": [
+			"$$this->db->insert_batch('${1:table_name}', $2);$3"
+		],
+		"description": "insert batch query builder"
+	},
+	"insert id query builder": {
+		"prefix": "ci_db_insert_id",
+		"body": [
+			"$$this->db->insert_id();$1"
+		],
+		"description": "insert id query builder"
+	},
+	"join query builder": {
+		"prefix": "ci_db_join",
+		"body": [
+			"$$this->db->join('${1:table_name}', $2);$3"
+		],
+		"description": "join query builder"
+	},
+	"last query - query builder method": {
+		"prefix": "ci_db_last_query",
+		"body": [
+			"$$this->db->last_query();$1"
+		],
+		"description": "last query - query builder method"
+	},
+	"limit - query builder method": {
+		"prefix": "ci_db_limit",
+		"body": [
+			"$$this->db->limit($1);$2"
+		],
+		"description": "limit - query builder method"
+	},
+	"num fields - query builder method": {
+		"prefix": "ci_db_num_fields",
+		"body": [
+			"$${1:query}->num_fields();$2"
+		],
+		"description": "num fields - query builder method"
+	},
+	"num rows - query builder method": {
+		"prefix": "ci_db_num_rows",
+		"body": [
+			"$${1:query}->num_rows();$2"
+		],
+		"description": "num rows - query builder method"
+	},
+	"order by - query builder method": {
+		"prefix": "ci_db_order_by",
+		"body": [
+			"$$this->db->order_by('${1:field_name}', '${2:DESC}');$3"
+		],
+		"description": "order by - query builder method"
+	},
+	"select query builder": {
+		"prefix": "ci_db_select",
+		"body": [
+			"$$this->db->select('${1:field_name}');$2"
+		],
+		"description": "select query builder"
+	},
+	"load driver": {
+		"prefix": "ci_load_driver",
+		"body": [
+			"$$this->load->driver('$1');"
+		],
+		"description": "load driver"
+	},
+	"load helper": {
+		"prefix": "ci_load_helper",
+		"body": [
+			"$$this->load->helper('$1');"
+		],
+		"description": "load helper"
+	},
+	"load library": {
+		"prefix": "ci_load_library",
+		"body": [
+			"$$this->load->library('$1');"
+		],
+		"description": "load library"
+	},
+	"load a model": {
+		"prefix": "ci_load_model",
+		"body": [
+			"$$this->load->model('$1');"
+		],
+		"description": "load a model"
+	},
+	"load view": {
+		"prefix": "ci_load_view",
+		"body": [
+			"$$this->load->view('$1');"
+		],
+		"description": "load view"
+	},
 	"class constructor": {
 		"prefix": "ci_constructor",
 		"body": [
@@ -47,41 +187,6 @@
 			"$${1:CI} = & get_instance();"
 		],
 		"description": "get instance"
-	},
-	"load driver": {
-		"prefix": "ci_load_driver",
-		"body": [
-			"$$this->load->driver('$1');"
-		],
-		"description": "load driver"
-	},
-	"load helper": {
-		"prefix": "ci_load_helper",
-		"body": [
-			"$$this->load->helper('$1');"
-		],
-		"description": "load helper"
-	},
-	"load library": {
-		"prefix": "ci_load_library",
-		"body": [
-			"$$this->load->library('$1');"
-		],
-		"description": "load library"
-	},
-	"load a model": {
-		"prefix": "ci_load_model",
-		"body": [
-			"$$this->load->model('$1');"
-		],
-		"description": "load a model"
-	},
-	"load view": {
-		"prefix": "ci_load_view",
-		"body": [
-			"$$this->load->view('$1');"
-		],
-		"description": "load view"
 	},
 	"log message": {
 		"prefix": "ci_log_message",

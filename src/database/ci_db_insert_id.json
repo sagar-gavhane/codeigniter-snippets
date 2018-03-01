@@ -1,0 +1,9 @@
+{
+	"insert id query builder": {
+		"prefix": "ci_db_insert_id",
+		"body": [
+		  "$$this->db->insert_id();$1"
+		],
+		"description": "insert id query builder"
+	  }
+}

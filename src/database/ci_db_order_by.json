@@ -1,0 +1,9 @@
+{
+	"order by - query builder method": {
+		"prefix": "ci_db_order_by",
+		"body": [
+		  "$$this->db->order_by('${1:field_name}', '${2:DESC}');$3"
+		],
+		"description": "order by - query builder method"
+	  }
+}

@@ -1,0 +1,9 @@
+{
+    "It frees the memory associated with the result and deletes the result resource ID.": {
+        "prefix": "ci_db_free_result",
+        "body": [
+          "$${1:query}->free_result();"
+        ],
+        "description": "It frees the memory associated with the result and deletes the result resource ID."
+      }
+}

@@ -1,0 +1,9 @@
+{
+	"limit - query builder method": {
+		"prefix": "ci_db_limit",
+		"body": [
+		  "$$this->db->limit($1);$2"
+		],
+		"description": "limit - query builder method"
+	  }
+}

@@ -1,0 +1,9 @@
+{
+	"get query builder method": {
+		"prefix": "ci_db_get",
+		"body": [
+		  "$$this->db->get('${1:table}');"
+		],
+		"description": "get query builder method"
+	  }
+}
