@@ -1,0 +1,117 @@
+{
+	"class constructor": {
+		"prefix": "ci_constructor",
+		"body": [
+			"public function __construct(){",
+			"    parent::__construct();",
+			"    // youre code start here",
+			"}"
+		],
+		"description": "class constructor"
+	},
+	"create new controller template": {
+		"prefix": "ci_controller",
+		"body": [
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"class $1${TM_FILENAME_BASE} extends CI_Controller{",
+			"    ",
+			"    public function __construct(){",
+			"        parent::__construct();",
+			"        // youre code start here",
+			"    }",
+			"}"
+		],
+		"description": "CI - create new controller template"
+	},
+	"create a blank data array": {
+		"prefix": "ci_data_array",
+		"body": [
+			"$${1:data} = array(",
+			"    '$2' => $3,",
+			");"
+		],
+		"description": "create a blank data array"
+	},
+	"formatted print_r": {
+		"prefix": "ci_print_r",
+		"body": [
+			"echo '<pre>';",
+			"print_r($$data);",
+			"echo '</pre>';"
+		],
+		"description": "formatted print_r"
+	},
+	"get instance": {
+		"prefix": "ci_get_instance",
+		"body": [
+			"$${1:CI} = & get_instance();"
+		],
+		"description": "get instance"
+	},
+	"load driver": {
+		"prefix": "ci_load_driver",
+		"body": [
+			"$$this->load->driver('$1');"
+		],
+		"description": "load driver"
+	},
+	"load helper": {
+		"prefix": "ci_load_helper",
+		"body": [
+			"$$this->load->helper('$1');"
+		],
+		"description": "load helper"
+	},
+	"load library": {
+		"prefix": "ci_load_library",
+		"body": [
+			"$$this->load->library('$1');"
+		],
+		"description": "load library"
+	},
+	"load a model": {
+		"prefix": "ci_load_model",
+		"body": [
+			"$$this->load->model('$1');"
+		],
+		"description": "load a model"
+	},
+	"load view": {
+		"prefix": "ci_load_view",
+		"body": [
+			"$$this->load->view('$1');"
+		],
+		"description": "load view"
+	},
+	"log message": {
+		"prefix": "ci_log_message",
+		"body": [
+			"log_message('$1', '$2');"
+		],
+		"description": "log message"
+	},
+	"create new model": {
+		"prefix": "ci_model",
+		"body": [
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"class $1${TM_FILENAME_BASE} extends CI_Model{",
+			"",
+			"}"
+		],
+		"description": "create new model"
+	},
+	"call model method": {
+		"prefix": "ci_model_method",
+		"body": [
+			"$$this->${1:model_name}->${2:method_name}();"
+		],
+		"description": "call model method"
+	},
+	"set new route": {
+		"prefix": "ci_route_set",
+		"body": [
+			"$$route['$1'] = '$2';"
+		],
+		"description": "set new route"
+	}
+}
