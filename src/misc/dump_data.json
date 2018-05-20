@@ -1,0 +1,11 @@
+{
+	"formatted print_r": {
+		"prefix": "dd",
+		"body": [
+			"echo '<pre>';",
+			"print_r($$data);",
+			"echo '</pre>';"
+		],
+		"description": "formatted print_r"
+	}
+}
