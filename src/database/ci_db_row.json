@@ -1,0 +1,9 @@
+{
+    "row - query builder method": {
+        "prefix": "ci_db_row",
+        "body": [
+          "$$query->row();"
+        ],
+        "description": "row - query builder method"
+      }
+}

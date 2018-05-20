@@ -1,0 +1,9 @@
+{
+    "where - query builder method": {
+		"prefix": "ci_db_where",
+		"body": [
+		  "$$this->db->where('${1:key}', '${2:value}');"
+		],
+		"description": "where - query builder method"
+	  }
+}

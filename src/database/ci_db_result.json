@@ -1,0 +1,9 @@
+{
+    "result - query builder method": {
+        "prefix": "ci_db_result",
+        "body": [
+          "$$query->result();"
+        ],
+        "description": "result - query builder method"
+      }
+}
