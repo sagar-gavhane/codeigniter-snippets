@@ -1,6 +1,6 @@
 {
     "create new controller template": {
-        "prefix": "ci_controller",
+        "prefix": "controller",
         "body": [
             "defined('BASEPATH') OR exit('No direct script access allowed');",
             "class $1${TM_FILENAME_BASE} extends CI_Controller{",

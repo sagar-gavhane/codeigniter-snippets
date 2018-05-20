@@ -1,6 +1,6 @@
 {
 	"insert query builder": {
-		"prefix": "ci_db_insert",
+		"prefix": "db_insert",
 		"body": [
 		  "$$this->db->insert('${1:table_name}');"
 		],

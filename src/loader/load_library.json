@@ -1,6 +1,6 @@
 {
     "load library": {
-        "prefix": "ci_load_library",
+        "prefix": "load_library",
         "body": [
             "$$this->load->library('$1');"
         ],

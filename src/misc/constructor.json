@@ -1,6 +1,6 @@
 {
     "class constructor": {
-		"prefix": "ci_constructor",
+		"prefix": "constructor",
 		"body": [
 			"public function __construct(){",
 			"    parent::__construct();",

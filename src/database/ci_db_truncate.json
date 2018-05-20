@@ -1,6 +1,6 @@
 {
     "truncate - query builder method": {
-        "prefix": "ci_db_truncate",
+        "prefix": "db_truncate",
         "body": [
           "$$this->db->truncate('${1:table_name}');"
         ],

@@ -1,6 +1,6 @@
 {
     "update - query builder method": {
-        "prefix": "ci_db_update",
+        "prefix": "db_update",
         "body": [
           "$$this->db->update('${1:table}', '${2:data}');"
         ],

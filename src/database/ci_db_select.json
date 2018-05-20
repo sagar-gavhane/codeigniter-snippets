@@ -1,6 +1,6 @@
 {
 	"select query builder": {
-		"prefix": "ci_db_select",
+		"prefix": "db_select",
 		"body": [
 		  "$$this->db->select('${1:field_name}');$2"
 		],

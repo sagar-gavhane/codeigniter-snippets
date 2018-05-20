@@ -1,6 +1,6 @@
 {
 	"load driver": {
-		"prefix": "ci_load_driver",
+		"prefix": "load_driver",
 		"body": [
 			"$$this->load->driver('$1');"
 		],

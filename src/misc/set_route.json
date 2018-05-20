@@ -1,6 +1,6 @@
 {
 	"set new route": {
-		"prefix": "ci_route_set",
+		"prefix": "route_set",
 		"body": [
 			"$$route['$1'] = '$2';"
 		],

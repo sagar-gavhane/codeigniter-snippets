@@ -1,6 +1,6 @@
 {
 	"limit - query builder method": {
-		"prefix": "ci_db_limit",
+		"prefix": "db_limit",
 		"body": [
 		  "$$this->db->limit($1);$2"
 		],

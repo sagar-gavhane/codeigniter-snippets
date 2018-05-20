@@ -1,6 +1,6 @@
 {
 	"get affected rows": {
-		"prefix": "ci_db_affected_rows",
+		"prefix": "db_affected_rows",
 		"body": [
 		  "$$this->db->affected_rows();"
 		],

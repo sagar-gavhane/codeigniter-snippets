@@ -1,6 +1,6 @@
 {
 	"load helper": {
-		"prefix": "ci_load_helper",
+		"prefix": "load_helper",
 		"body": [
 			"$$this->load->helper('$1');"
 		],

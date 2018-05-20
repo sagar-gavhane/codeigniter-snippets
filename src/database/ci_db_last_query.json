@@ -1,6 +1,6 @@
 {
 	"last query - query builder method": {
-		"prefix": "ci_db_last_query",
+		"prefix": "db_last_query",
 		"body": [
 		  "$$this->db->last_query();$1"
 		],

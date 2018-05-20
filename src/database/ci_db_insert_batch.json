@@ -1,6 +1,6 @@
 {
 	"insert batch query builder": {
-		"prefix": "ci_db_insert_batch",
+		"prefix": "db_insert_batch",
 		"body": [
 		  "$$this->db->insert_batch('${1:table_name}', $2);$3"
 		],

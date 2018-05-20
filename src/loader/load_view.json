@@ -1,6 +1,6 @@
 {
 	"load view": {
-		"prefix": "ci_load_view",
+		"prefix": "load_view",
 		"body": [
 			"$$this->load->view('$1');"
 		],

@@ -1,6 +1,6 @@
 {
     "result - query builder method": {
-        "prefix": "ci_db_result",
+        "prefix": "db_result",
         "body": [
           "$$query->result();"
         ],

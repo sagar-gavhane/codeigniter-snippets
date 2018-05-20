@@ -1,6 +1,6 @@
 {
 	"group by query builder method": {
-		"prefix": "ci_db_group_by",
+		"prefix": "db_group_by",
 		"body": [
 		  "$$this->db->group_by($1);"
 		],

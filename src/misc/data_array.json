@@ -1,6 +1,6 @@
 {
 	"create a blank data array": {
-		"prefix": "ci_data_array",
+		"prefix": "data_array",
 		"body": [
 			"$${1:data} = array(",
 			"    '$2' => $3,",

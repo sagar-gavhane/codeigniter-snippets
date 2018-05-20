@@ -1,6 +1,6 @@
 {
 	"num rows - query builder method": {
-		"prefix": "ci_db_num_rows",
+		"prefix": "db_num_rows",
 		"body": [
 		  "$${1:query}->num_rows();$2"
 		],

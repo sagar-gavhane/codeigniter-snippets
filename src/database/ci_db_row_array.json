@@ -1,6 +1,6 @@
 {
     "row array - query builder method": {
-        "prefix": "ci_db_row_array",
+        "prefix": "db_row_array",
         "body": [
           "$$query->row_array();"
         ],

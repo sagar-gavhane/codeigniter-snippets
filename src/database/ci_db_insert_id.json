@@ -1,6 +1,6 @@
 {
 	"insert id query builder": {
-		"prefix": "ci_db_insert_id",
+		"prefix": "db_insert_id",
 		"body": [
 		  "$$this->db->insert_id();$1"
 		],

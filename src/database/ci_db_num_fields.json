@@ -1,6 +1,6 @@
 {
 	"num fields - query builder method": {
-		"prefix": "ci_db_num_fields",
+		"prefix": "db_num_fields",
 		"body": [
 		  "$${1:query}->num_fields();$2"
 		],
