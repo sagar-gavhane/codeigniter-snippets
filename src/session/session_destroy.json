@@ -1,0 +1,9 @@
+{
+	"session destroy": {
+		"prefix": "sess_destroy",
+		"body": [
+		  "$$this->session->sess_destroy('${1:key}');"
+		],
+		"description": "session destroy"
+	  }
+}

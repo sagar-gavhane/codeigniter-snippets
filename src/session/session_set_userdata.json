@@ -1,0 +1,9 @@
+{
+	"get session userdata": {
+		"prefix": "sess_set_userdata",
+		"body": [
+		  "$$this->session->set_userdata('${1:data}', ${2:value});"
+		],
+		"description": "get session userdata"
+	  }
+}
